@@ -1,0 +1,29 @@
+{
+    "scenarios": [
+        {
+            "flows": [
+                {
+                    "src": 1,
+                    "dest": 4,
+                    "packetSize": 500,
+                    "sendInterval": 30000
+                }, {
+                    "src": 3,
+                    "dest": 4,
+                    "packetSize": 1200,
+                    "sendInterval": 20200
+                }, {
+                    "src": 2,
+                    "dest": 4,
+                    "packetSize": 1300,
+                    "sendInterval": 12000
+                }, {
+                    "src": 2,
+                    "dest": 3,
+                    "packetSize": 800,
+                    "sendInterval": 18000
+                }
+            ]
+        }
+    ]
+}
